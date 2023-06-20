@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+#bg-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #f1954a;
+    background-color: #81b2ee;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn-login{
+    padding: 8px 15px;
+    background-color: rgb(50, 114, 41);
+    color: #f08bdf;
+    border: none;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background-color: #f08bdf;
+}
+.input-control{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.input-data{
+    width: 80%;
+    box-sizing: border-box;
+}
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(238, 115, 115);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #a34007;
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: rgb(22, 77, 9);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    background-color: rgb(236, 140, 140);
+}
+
+table tr td {
+    border: 1px solid #4a6b8a;
+    padding: 8px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1a6ed8;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(47, 146, 125);
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: rgb(95, 64, 53);
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+}
